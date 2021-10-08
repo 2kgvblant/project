@@ -1,0 +1,6 @@
+﻿  calc.cpp
+C:\Users\Valeriy\Desktop\проекты cpp\Calculator 3.0\Project2\calc.cpp(126): warning C4715: case3: значение возвращается не при всех путях выполнения
+C:\Users\Valeriy\Desktop\проекты cpp\Calculator 3.0\Project2\calc.cpp(54): warning C4715: case1: значение возвращается не при всех путях выполнения
+C:\Users\Valeriy\Desktop\проекты cpp\Calculator 3.0\Project2\calc.cpp(90): warning C4715: case2: значение возвращается не при всех путях выполнения
+C:\Users\Valeriy\Desktop\проекты cpp\Calculator 3.0\Project2\calc.cpp(162): warning C4715: case4: значение возвращается не при всех путях выполнения
+  Project2.vcxproj -> C:\Users\Valeriy\Desktop\проекты cpp\Calculator 3.0\Debug\Project2.exe

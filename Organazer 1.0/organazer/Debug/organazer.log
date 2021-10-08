@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\Valeriy\Desktop\проекты cpp\Organazer 1.0\organazer\Source.cpp(72,29): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Valeriy\Desktop\проекты cpp\Organazer 1.0\organazer\Source.cpp(86,29): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Valeriy\Desktop\проекты cpp\Organazer 1.0\organazer\Source.cpp(108,29): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Valeriy\Desktop\проекты cpp\Organazer 1.0\organazer\Source.cpp(119,29): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Valeriy\Desktop\проекты cpp\Organazer 1.0\organazer\Source.cpp(161,29): warning C4018: <: несоответствие типов со знаком и без знака
+  organazer.vcxproj -> C:\Users\Valeriy\Desktop\проекты cpp\Organazer 1.0\Debug\organazer.exe
