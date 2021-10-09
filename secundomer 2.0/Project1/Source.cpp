@@ -25,7 +25,7 @@ int main()
 		}
 		cout << "  " << endl;
 		cout << "¬рем€ вышло" << endl;
-		tryAgain:
+		do{
 		cout << "’отите продолжить" << endl;
 	cin >> k;
 	system("cls");
@@ -39,6 +39,6 @@ int main()
 	else
 	{
 		cout << "¬ведите да или нет" << endl;
-		goto tryAgain;
 	}
+	}while (true);
 }
