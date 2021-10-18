@@ -6,7 +6,7 @@
 #include "Spisok.h"
 #include "Menu.h"
 #include "Baza.h"
-
+#include <fstream>
 using namespace std;
 
 Baza b;
@@ -130,6 +130,11 @@ void Spisok::add(int a)
 	cin.ignore();
 	getline(cin, zd);
 	b.task.push_back(zd);
+	ofstream fout;
+	fout.open("baza.txt", ofstream::app);
+	fout << zd;
+	fout << "\n";
+	fout.close();
 	system("cls");
 	cout << l.Language[22][l.setlang] << endl;
 	//_sleep(3000);
@@ -140,6 +145,7 @@ void Spisok::spis(int a)
 {
 	Lang l;
 	l.setlang = a;
+
 	if (b.task.empty() == true)
 	{
 		cout << l.Language[23][l.setlang] << endl;
@@ -168,4 +174,29 @@ void Spisok::spis(int a)
 	case 4:
 		menu1(l.setlang);
 	}
+}
+
+void Spisok::baza() {
+	string a1;
+	ifstream fout;
+	fout.open("baza.txt");
+	fout.eof();
+	while (!fout.eof()) {
+		getline(fout, a1);
+		b.task.push_back(a1);
+	}
+	b.task.pop_back();
+	fout.close();
+}
+
+void Spisok::xz() {
+	ofstream fout;
+	fout.open("baza1.txt", ofstream::app);
+	for (int i = 0; i < b.task.size(); i++)
+	{
+		fout << b.task[i];
+		fout << "\n";
+	}
+	fout.close();
+	rename("baza1.txt", "baza.txt");
 }

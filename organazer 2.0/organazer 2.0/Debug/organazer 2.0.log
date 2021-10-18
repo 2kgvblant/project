@@ -3,5 +3,7 @@ C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.c
 C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(63,27): warning C4018: <: несоответствие типов со знаком и без знака
 C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(88,27): warning C4018: <: несоответствие типов со знаком и без знака
 C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(102,27): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(149,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(155,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(183,10): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(195,20): warning C4018: <: несоответствие типов со знаком и без знака
   organazer 2.0.vcxproj -> C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\Debug\organazer 2.0.exe

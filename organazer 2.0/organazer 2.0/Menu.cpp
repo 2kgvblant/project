@@ -35,5 +35,9 @@ void Menu::menu(int a)
 	{
 		set.sett(l.setlang);
 	}
+	case 4:
+		remove("baza.txt");
+		s.xz();	
+		exit(0);
 	}
 }

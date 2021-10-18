@@ -18,5 +18,7 @@ public:
 	void red(int a);
 	void add(int a);
 	void spis(int a);
+	void baza();
+	void xz();
 };
 
