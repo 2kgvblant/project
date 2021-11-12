@@ -20,5 +20,6 @@ public:
 	void spis(int a);
 	void baza();
 	void xz();
+	void vbaza();
+	void date(string date);
 };
-

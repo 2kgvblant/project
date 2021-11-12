@@ -9,6 +9,7 @@
 #include <fstream>
 using namespace std;
 
+Date d;
 Baza b;
 Menu m;
 
@@ -67,6 +68,11 @@ void Spisok::vzad(int a)
 	cout << l.Language[13][l.setlang] << endl;
 	cin >> y;
 	b.vipzad.push_back(b.task[y - 1]);
+	ofstream vzad;
+	vzad.open("vipzad.txt", ofstream::app);
+	vzad << b.task[y - 1];
+	vzad << "\n";
+	vzad.close();
 	b.task.erase((b.task.begin() + y - 1));
 	system("cls");
 	cout << l.Language[15][l.setlang] << endl;
@@ -191,12 +197,26 @@ void Spisok::baza() {
 
 void Spisok::xz() {
 	ofstream fout;
-	fout.open("baza1.txt", ofstream::app);
+	fout.open("baza.txt", ofstream::out);
+	ios::trunc;
 	for (int i = 0; i < b.task.size(); i++)
 	{
 		fout << b.task[i];
 		fout << "\n";
 	}
 	fout.close();
-	rename("baza1.txt", "baza.txt");
 }
+
+void Spisok::vbaza() {
+	string a1;
+	ifstream vzad;
+	vzad.open("vipzad.txt");
+	vzad.eof();
+	while (!vzad.eof()) {
+		getline(vzad, a1);
+		b.vipzad.push_back(a1);
+	}
+	b.vipzad.pop_back();
+	vzad.close();
+}
+

@@ -1,0 +1,4 @@
+﻿  films.cpp
+C:\Users\Valeriy\Desktop\проекты cpp\films\films\films.cpp(333,6): warning C4101: language: неиспользованная локальная переменная
+C:\Users\Valeriy\Desktop\проекты cpp\films\films\films.cpp(83): warning C4715: month: значение возвращается не при всех путях выполнения
+  films.vcxproj -> C:\Users\Valeriy\Desktop\проекты cpp\films\Debug\films.exe

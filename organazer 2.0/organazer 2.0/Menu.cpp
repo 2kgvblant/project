@@ -10,13 +10,15 @@
 
 using namespace std;
 
+extern int timex;
+
 void Menu::menu(int a)
 {
 	Lang l;
-	l.setlang = a;
+	Date d;
 	Setting set;
 	Spisok s;
-
+	l.setlang = a;
 	cout << l.Language[0][l.setlang] << endl;
 	cout << l.Language[1][l.setlang] << endl;
 	cout << l.Language[2][l.setlang] << endl;

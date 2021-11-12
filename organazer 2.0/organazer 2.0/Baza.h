@@ -4,9 +4,14 @@
 #include <windows.h>
 #include <string>
 #include <vector>
+#include <ctime>
 #pragma once
 using namespace std;
-
+class Date
+{
+public:
+	int date;
+};
 class Baza
 {
 public:
@@ -15,7 +20,6 @@ public:
 	vector<string>::iterator tsk;
 	vector<string>::const_iterator iter;
 };
-
 class Lang
 {
 public:
@@ -52,4 +56,3 @@ public:
 		{"4 -> Выйти в меню\n" , "4 -> Exit to the menu\n"},
 	};
 };
-
