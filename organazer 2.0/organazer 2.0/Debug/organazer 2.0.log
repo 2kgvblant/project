@@ -1,3 +1,15 @@
-﻿  Organazer.cpp
+﻿  Menu.cpp
+C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Menu.cpp(18,7): warning C4101: d: неиспользованная локальная переменная
+  Organazer.cpp
 C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Organazer.cpp(22,7): warning C4101: d: неиспользованная локальная переменная
+  Spisok.cpp
+C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(47,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(64,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(94,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(108,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(161,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(189,10): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(202,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\organazer 2.0\Spisok.cpp(214,10): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+  Создание кода...
   organazer 2.0.vcxproj -> C:\Users\Valeriy\Desktop\проекты cpp\organazer 2.0\Debug\organazer 2.0.exe

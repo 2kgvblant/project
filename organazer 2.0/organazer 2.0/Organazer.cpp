@@ -23,12 +23,6 @@ int main()
 	Menu m;
 	Lang l;
 	Spisok h;
-	struct tm t;
-	time_t tim = time(0);
-	t = *localtime(&tim);
-	timex = t.tm_mon + 1;
-	int xx = t.tm_mday * 100;
-	timex = timex + xx;
 	l.setlang = 0;
 	ofstream fout;
 	fout.open("baza.txt", ofstream::app);
